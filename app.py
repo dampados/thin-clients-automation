@@ -33,7 +33,13 @@ def main():
                 # !!! #
 
         # 2. health check!
-        alive = ping(host['ip'], count=1, timeout=2, privileged=False)
+        # alive = ping(host['ip'], count=1, timeout=2, privileged=False)
+
+        try:
+            ping(host['ip'], count=1, timeout=2, privileged=False)
+        except PermissionError:
+            ping(host['ip'], count=1, timeout=2, privileged=True)
+
         if not alive or alive.packets_received == 0:
             print(f"\n❌ [{type_config["name"]}] {host['ip']} offline, skipping")
             continue

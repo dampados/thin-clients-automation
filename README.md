@@ -14,6 +14,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Configuration
+gotta configure your own inventory.json:
+- credentials (multiple supported)
+- different connecion options (for older ssh servers)
+- custom new types of clients (u can make your own handlers)
+- hosts
+
+just follow the example
+
 ## Usage 
 ```bash
 source venv/bin/activate

@@ -19,6 +19,8 @@ pip install -r requirements.txt
 source venv/bin/activate
 python3 app.py
 ```
+<img width="481" height="110" alt="image" src="https://github.com/user-attachments/assets/35c0b1a6-7a04-4783-9d0f-7ab89a66d15f" />
+
 
 ## Credits
 icmplib used, thanks

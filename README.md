@@ -4,7 +4,7 @@ Syncs RDP profiles from local storage to remote clients (HP ThinPro, Linux with 
 
 ## Requirements
 - Python3
-- `sshpass` (sudo apt install sshpass)
+- `sshpass` (apt install sshpass // brew install sshpass)
 
 ## Installation
 ```bash

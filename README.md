@@ -1,5 +1,5 @@
-# Thin clients RDP configs flushing script with post checks (Debian-like linux + remmina and old HP ThinPro)
-
+# Thin clients RDP configs flushing script with post checks
+### (Debian-like linux + remmina and old HP ThinPro)
 ## Requirements
 - Python 3
 - `sshpass` (sudo apt install sshpass)

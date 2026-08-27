@@ -1,0 +1,46 @@
+{
+  "credentials": [
+    {
+      "name": "default_root",
+      "username": "root",
+      "password": "your_password_here"
+    }
+  ],
+  "ssh_profiles": [
+    {
+      "profile": "modern",
+      "options": [
+        "-o StrictHostKeyChecking=no",
+        "-o UserKnownHostsFile=/dev/null"
+      ]
+    },
+    {
+      "profile": "legacy",
+      "options": [
+        "-o StrictHostKeyChecking=no",
+        "-o UserKnownHostsFile=/dev/null",
+        "-o HostKeyAlgorithms=+ssh-rsa",
+        "-o PubkeyAcceptedAlgorithms=+ssh-rsa"
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "hp",
+      "config_local_dir": "./config/hp",
+      "config_remote_dir": "/tmp/import_xml",
+      "executor": "deploy_hp"
+    },
+    {
+      "name": "linux_common",
+      "config_local_dir": "./config/linux",
+      "config_remote_dir": "/tmp/import_rdp",
+      "executor": "deploy_linux"
+    }
+  ],
+  "hosts": [
+    {"ip": "192.168.0.1", "type": "hp", "credential": "default_root", "ssh_profile": "modern"},
+    {"ip": "192.168.0.2", "type": "hp", "credential": "default_root", "ssh_profile": "legacy"},
+    {"ip": "192.168.0.3", "type": "linux_common", "credential": "default_root", "ssh_profile": "modern"}
+  ]
+}

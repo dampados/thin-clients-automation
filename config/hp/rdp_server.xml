@@ -1,0 +1,64 @@
+<Profile>
+ <ProfileSettings>
+  <Name>HP-Profile-2026-08-13</Name>
+  <RegistryRoot>root/ConnectionType/freerdp/connections/{ff71ff71-7513-4758-a39a-13713cb5fa73}</RegistryRoot>
+  <Target>
+   <Hardware>t510</Hardware>
+   <ImageId>T6X52011</ImageId>
+   <Version>5.2.0</Version>
+   <Config>standard</Config>
+  </Target>
+ </ProfileSettings>
+ <ProfileRegistry>
+  <NodeDir name="{ff74ff74-7513-4758-a39a-13713cb5fa73}">
+   <NodeKey name="domain">
+    <NodeParam name="value">set your domain</NodeParam>
+   </NodeKey>
+   <NodeKey name="hasDesktopIcon">
+    <NodeParam name="value">1</NodeParam>
+   </NodeKey>
+   <NodeDir name="loginfields">
+    <NodeKey name="domain">
+     <NodeParam name="value">0</NodeParam>
+    </NodeKey>
+    <NodeKey name="rememberme">
+     <NodeParam name="value">0</NodeParam>
+    </NodeKey>
+   </NodeDir>
+   <NodeKey name="perfFlagDesktopComposition">
+    <NodeParam name="value">1</NodeParam>
+   </NodeKey>
+   <NodeKey name="perfFlagFontSmoothing">
+    <NodeParam name="value">1</NodeParam>
+   </NodeKey>
+   <NodeKey name="perfFlagNoMenuAnimations">
+    <NodeParam name="value">1</NodeParam>
+   </NodeKey>
+   <NodeKey name="perfFlagNoTheming">
+    <NodeParam name="value">0</NodeParam>
+   </NodeKey>
+   <NodeKey name="perfFlagNoWallpaper">
+    <NodeParam name="value">0</NodeParam>
+   </NodeKey>
+   <NodeKey name="perfFlagNoWindowDrag">
+    <NodeParam name="value">1</NodeParam>
+   </NodeKey>
+   <NodeKey name="printerMapping">
+    <NodeParam name="value">0</NodeParam>
+   </NodeKey>
+   <NodeKey name="securityLevel">
+    <NodeParam name="value">0</NodeParam>
+   </NodeKey>
+   <NodeKey name="usbStorageRedirection">
+    <NodeParam name="value">0</NodeParam>
+   </NodeKey>
+   <NodeKey name="label">
+    <NodeParam name="value">Name of the config show to the user</NodeParam>
+   </NodeKey>
+   <NodeKey name="address">
+    <NodeParam name="value">Domain name or IP address</NodeParam>
+   </NodeKey>
+  </NodeDir>
+ </ProfileRegistry>
+ <ProfileFiles/>
+</Profile>

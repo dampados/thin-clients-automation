@@ -1,5 +1,7 @@
-# Thin clients RDP configs flushing script with post checks
-### Debian-like linux + remmina and old HP ThinPro
+# Centralized RDP Profile Management for Thin Clients
+
+Syncs RDP profiles from local storage to remote clients (HP ThinPro, Linux with Remmina) using inventory.
+
 ## Requirements
 - Python3
 - `sshpass` (sudo apt install sshpass)

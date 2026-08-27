@@ -1,7 +1,7 @@
 # Thin clients RDP configs flushing script with post checks
 ### Debian-like linux + remmina and old HP ThinPro
 ## Requirements
-- Python 3
+- Python3
 - `sshpass` (sudo apt install sshpass)
 
 ## Installation
@@ -15,8 +15,10 @@ pip install -r requirements.txt
 ```
 
 ## Usage 
+```bash
 source venv/bin/activate
 python3 app.py
+```
 
 ## Credits
 icmplib used, thanks
